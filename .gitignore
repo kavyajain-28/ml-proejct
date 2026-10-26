@@ -1,0 +1,46 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+transformers/
+
+# Model outputs / checkpoints
+checkpoint-*/
+*/checkpoint-*/
+roberta_finetuned_results/
+distilbert_results/
+deberta_results/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# Large generated files
+*.npy
+*.npz
+
+# IDE
+.vscode/
+.idea/
